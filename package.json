@@ -1,0 +1,14 @@
+{
+  "name": "yarn-ws-repro",
+  "version": "1.0.0",
+  "description": "Workspace wierdness repro.",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
